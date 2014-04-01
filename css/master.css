@@ -1,0 +1,113 @@
+/* Generic definitions */
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+@font-face {
+    font-family: "Proxima Nova Light";
+    src: url('/assets/proxima_light.otf');
+}
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: url('/assets/proxima_bold.otf');
+}
+
+
+
+/* Set up tag defaults */
+a, p, span {
+    color: #d4d4d4;
+    font-family: "Proxima Nova Light";
+}
+a {
+    text-decoration: none;
+    font-size: 24px;
+}
+a:hover {
+    color: #8ca1b6;
+}
+
+
+/* Classes for repeated elements */
+.separator-bullet {
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+.front-page-sidebar {
+    border-left: 1px solid #8ca1b6;
+}
+.archive-articles:nth-of-type(1) {
+    margin: 130px 0 0px 110px;
+}
+.archive-articles {
+    margin: 0px 0 0px 110px;
+}
+
+/* Header layout */
+header {
+    width: 960px;
+    padding: 50px 0px 10px 130px;
+}
+header nav h1 {
+    display: inline;
+}
+header nav h1 a {
+    font-family: "Proxima Nova Bold";
+    font-size: 30px;
+    color: #d4d4d4;
+}
+header nav div {
+    display: inline;
+    float: right;
+    padding: 6px 0 0 0;
+}
+hr {
+    margin: 0;
+    border: 1px solid #8ca1b6;
+}
+
+/* Post layout */
+article {
+    margin: 130px 0 100px 110px;
+    padding: 0 0 0 20px;
+    width: 600px;
+}
+article header {
+    padding: 0 0 40px 0;
+    width: 600px;
+    display: inline-block;
+}
+article header h1 {
+    float: left;
+    margin: 0;
+}
+article header h2 {
+    float: right;
+    margin: 8px 0 0 0;
+}
+article header h1 a {
+    font-family: "Proxima Nova Bold";
+    font-size: 26px;
+}
+article header h2 a {
+    font-family: "Proxima Nova Bold";
+    font-size: 16px;
+}
+article p {
+    margin: 0;
+    font-family: "Proxima Nova Light";
+    font-size: 18px;
+    line-height: 200%;
+    text-align: justify;
+}
+article a {
+    margin: 10px 0 0 0;
+    font-family: "Proxima Nova Bold";
+    font-size: 16px;
+    float: right;
+}

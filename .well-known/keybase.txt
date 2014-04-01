@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/ajf
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://overtones.fm
+  * I am ajf (https://keybase.io/ajf) on keybase.
+  * I have a public key with fingerprint 8EAE F686 CB8F 05FB 72D3  20D9 E655 9C3A 0F6A 40C9
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "8eaef686cb8f05fb72d320d9e6559c3a0f6a40c9",
+            "host": "keybase.io",
+            "key_id": "E6559C3A0F6A40C9",
+            "uid": "18855371cc5f35156e74a427a9b3a700",
+            "username": "ajf"
+        },
+        "service": {
+            "hostname": "overtones.fm",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396233569,
+    "expire_in": 157680000,
+    "prev": "498c2ceb09aa3794b6f65b2ab6ef3ea67a9eafaccddfaa1b2289926418879a59",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMT4LHSOFX+Ww0nG0wfeJDEEW1xNrFZKyk+pVLKqVspOBVNpmXnpqUUF
+RZl5JUpWShapialpZhZmyUkWaQamaUnmRinGRgYplqlmpqaWycaJBmlmiSYGyZZK
+OkoZ+cUgHUBjkhKLU/Uy84FiQE58ZgpQ1BWk3tnY0cDNzNHEwBmkvhQsYWhhYWpq
+bG6YnGyaZmxqaGqWam6SaGJknmiZZJxobmAAUlicWpSXmJsKVJ2YlaZUq6MEFCjL
+TE4FORdkK1Qyvyy1qCQ/L7VYLy0XqK2gKL8kPzk/ByiTUVJSYAXSWFJZAFJZnpoU
+DzUjPikzLwXoZaAGoPbizPw8JStDoMrkkkyQoYbGlmZGxsamZpY6SqkVBZlFqfGZ
+IBWm5mYWBkAAsia1DGikiaVFslFyapKBZWKisbmlSZJZmplpklFikllqmnFqohnQ
+Q6mJaYnJySkpaYmJhklGRhaWlkZmJkD/m1smmoICpDi1MC9fycoE6MzEdKCRxZnp
+eYklpUWpSrWdTDIsDIxMDGysTKBIY+DiFIBFZToD///ApTc/z1a4lFv2QSbo4CJF
+hw+s4VbKImKdJUphIl67/61y4pbnzW97L63dvmr6zvb5y41LSsX/sEX/d5z3Jebu
+dKm8GTm/k77//7+bh3P26S+XFke6+87SLdr9kNv8jpeknPOzuR8r2Vb8/t7gZ3Fl
+TdQ8a9OLvXwn7nce59lQ+nj14qCzXx7PcPy892x2ydHz1jE+nxkFkveYxLQt/HNA
+M8JMKT5kieG01SwLs/eyry6YqsWiZdOQx92l+Dlv972Nk8QW93nJce8K11n648/S
+vvlz53L0XOk8fsfgcU3Gj9rgO54Pt8/6wTjz9jGLbwrKR6Z/VvfM0eEqOXJQPprx
+oO8Cpsm/dQNyZeftm7VNwL2AwfnkPqaLJe9FuPnzjZPc8n2il53+u3JCxr7dz4sN
+d/+65xihWB+60Vt/3a69yz7svTb36t9d6j8rl9RtcCi9Juo3K/emp27xldSTZ59/
+O2htHSd6uDdj8eT1ExlWB8b9W9VtMyfb8uaTMsNl/sfroqOOmZyN/Pz06iSvyTts
+LrYVCRe521ilL5Z7GHehOfPWglKmOOHeI6ztM2a82TfrvdKJYwFm+x3eXu+LEA6e
+s/mzBn/z7pw4DevKD3m//TxWKmdtdrrKEbzITXpDQ0vJcav/Teni/31S2aKvb5n5
+rFlBhOGv9YRsrsDXOwWeGsf/ejltr+C6tuV3p9xV2q6ZbXdQaktfdmOsy5/lAA==
+=kRvh
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ajf
+
+==================================================================
