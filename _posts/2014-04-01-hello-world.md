@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hello world
+title: Hello World
 ---
 
-Hey look it's a blog.
+Hey, look, it's a blog.
