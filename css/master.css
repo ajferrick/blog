@@ -38,6 +38,9 @@ a:hover {
     padding: 0 10px 0 10px;
     font-size: 20px;
 }
+.front-page-sidebar {
+    border-left: 1px solid #8ca1b6;
+}
 
 
 /* Header layout */
@@ -46,10 +49,12 @@ header {
     padding: 50px 0px 10px 130px;
 }
 header nav h1 {
-    color: #d4d4d4;
     display: inline;
+}
+header nav h1 a {
     font-family: "Proxima Nova Bold";
     font-size: 30px;
+    color: #d4d4d4;
 }
 header nav div {
     display: inline;
@@ -63,10 +68,9 @@ hr {
 
 /* Post layout */
 article {
-    margin: 130px 0 100px 105px;
+    margin: 130px 0 100px 110px;
     padding: 0 0 0 20px;
     width: 600px;
-    border-left: 5px solid #8ca1b6;
 }
 article header {
     padding: 0 0 40px 0;
@@ -79,7 +83,7 @@ article header h1 {
 }
 article header h2 {
     float: right;
-    margin: 0;
+    margin: 8px 0 0 0;
 }
 article header h1 a {
     font-family: "Proxima Nova Bold";
@@ -97,6 +101,7 @@ article p {
     text-align: justify;
 }
 article a {
+    margin: 10px 0 0 0;
     font-family: "Proxima Nova Bold";
     font-size: 16px;
     float: right;
