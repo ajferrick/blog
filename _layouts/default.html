@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>overtones.fm | {{ page.title }}</title>
+    <link rel="author" href="humans.txt">
     <link rel="stylesheet" type="text/css" href="/css/master.css">
     <link rel="alternate" type="application/atom+xml" href="/feed/atom.xml">
 </head>
@@ -11,22 +12,21 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="/">overtones.fm</a></li>
-                <li><a href="/who">Who</a></li>
-                <li><a href="/archive">Archive</a></li>
-                <li><a href="/projects">Projects</a></li>
-            </ul>
+            <h1>overtones.fm</h1>
+            <div>
+                <a href="/who">who</a>
+                <span class="separator-bullet">&bull;</span>
+                <a href="/archive">archive</a>
+                <span class="separator-bullet">&bull;</span>
+                <a href="/projects">projects</a>
+            </div>
         </nav>
-        <!-- img -->
     </header>
+    <hr>
 
     <section>
         {{ content }}
     </section>
-
-    <nav>
-    </nav>
 
 </body>
 
