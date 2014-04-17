@@ -1,4 +1,4 @@
-/* Generic definitions */
+/* Generic definitions and page defaults*/
 html {
     margin: 0;
     padding: 0;
@@ -6,6 +6,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    color: #d4d4d4;
     background-color: #262626;
 }
 @font-face {
@@ -18,35 +19,15 @@ body {
 }
 
 
-
-/* Set up tag defaults */
-a, p, span {
-    color: #d4d4d4;
-    font-family: "Proxima Nova Light";
-}
+/* Set up archor tag behavior */
 a {
     text-decoration: none;
-    font-size: 24px;
+    color: #d4d4d4;
 }
 a:hover {
     color: #8ca1b6;
 }
 
-
-/* Classes for repeated elements */
-.separator-bullet {
-    padding: 0 10px 0 10px;
-    font-size: 20px;
-}
-.front-page-sidebar {
-    border-left: 1px solid #8ca1b6;
-}
-.archive-articles:nth-of-type(1) {
-    margin: 130px 0 0px 110px;
-}
-.archive-articles {
-    margin: 0px 0 0px 110px;
-}
 
 /* Header layout */
 header {
@@ -58,56 +39,80 @@ header nav h1 {
 }
 header nav h1 a {
     font-family: "Proxima Nova Bold";
-    font-size: 30px;
-    color: #d4d4d4;
+    font-size: 32px;
 }
 header nav div {
     display: inline;
     float: right;
-    padding: 6px 0 0 0;
+    padding: 8px 0 0 0;
+}
+header nav div a {
+    font-family: "Proxima Nova Light";
+    font-size: 22px;
 }
 hr {
     margin: 0;
     border: 1px solid #8ca1b6;
 }
 
-/* Post layout */
+
+/* Article layout */
 article {
     margin: 130px 0 100px 110px;
     padding: 0 0 0 20px;
-    width: 600px;
+    width: 610px;
 }
 article header {
     padding: 0 0 40px 0;
-    width: 600px;
+    width: 610px;
     display: inline-block;
+    font-family: "Proxima Nova Bold";
 }
 article header h1 {
     float: left;
     margin: 0;
+    font-size: 26px;
 }
 article header h2 {
     float: right;
     margin: 8px 0 0 0;
-}
-article header h1 a {
-    font-family: "Proxima Nova Bold";
-    font-size: 26px;
-}
-article header h2 a {
-    font-family: "Proxima Nova Bold";
     font-size: 16px;
 }
 article p {
-    margin: 0;
+    margin: 0 0 36px 0;
     font-family: "Proxima Nova Light";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 200%;
     text-align: justify;
+    display: inline-block;
 }
-article a {
-    margin: 10px 0 0 0;
-    font-family: "Proxima Nova Bold";
-    font-size: 16px;
-    float: right;
+article p a {
+    border-bottom: 1px #d4d4d4 dotted;
 }
+article li {
+    font-family: "Proxima Nova Light";
+    line-height: 120%;
+}
+
+
+/* Classes for repeated or special elements */
+.separator-bullet {
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+.front-page-sidebar {
+    margin: 0 10px 0 0;
+    display: inline;
+}
+.archive-articles:nth-of-type(1) {
+    margin: 130px 0 0px 110px;
+}
+.archive-articles {
+    margin: 0px 0 0px 110px;
+}
+.breaker-glyph {
+    text-align: center;
+    width: 100%;
+    color: #999;
+}
+
