@@ -4,7 +4,7 @@ layouts: ./_layouts
 keep_files: ['.git']
 
 exclude: ['README.md', 'Dockerfile']
-include: ['.well-known/keybase.io']
+include: ['.well-known']
 
 markdown: kramdown
 markdown_ext: md
