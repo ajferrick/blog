@@ -9,11 +9,10 @@ title: home
             <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
             <h2><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></h2>
         </header>
-        <hr class="front-page-sidebar">
-        <p>{{ post.content | truncate: 700 }}</p>
+        <blockquote>{{ post.content | truncate: 700 }}</blockquote>
         {% assign len = post.content | truncate: 700 | size %}
         {% if len >= 700 %}
-            <a href="{{ post.url }}">continue</a>
+            <a class="continue-link" href="{{ post.url }}">...continue</a>
         {% endif %}
     </article>
 {% endfor %}

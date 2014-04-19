@@ -78,20 +78,22 @@ article header h2 {
     margin: 8px 0 0 0;
     font-size: 16px;
 }
-article p {
-    margin: 0 0 36px 0;
+article blockquote {
+    padding: 0 0 0 40px;
+    margin: 0;
     font-family: "Proxima Nova Light";
     font-size: 16px;
-    line-height: 200%;
+    line-height: 150%;
     text-align: justify;
-    display: inline-block;
+    display: block;
+    border-left: 1px #8ca1b6 solid;
 }
-article p a {
+article blockquote a {
     border-bottom: 1px #d4d4d4 dotted;
 }
 article li {
     font-family: "Proxima Nova Light";
-    line-height: 120%;
+    line-height: 150%;
 }
 
 
@@ -99,10 +101,6 @@ article li {
 .separator-bullet {
     padding: 0 10px 0 10px;
     font-size: 20px;
-}
-.front-page-sidebar {
-    margin: 0 10px 0 0;
-    display: inline;
 }
 .archive-articles:nth-of-type(1) {
     margin: 130px 0 0px 110px;
@@ -115,4 +113,9 @@ article li {
     width: 100%;
     color: #999;
 }
-
+.continue-link {
+    font-family: "Proxima Nova Light";
+    margin: 18px 0 0 0;
+    display: block;
+    text-align: right;
+}
