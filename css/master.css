@@ -58,37 +58,22 @@ body section {
 }
 
 /* Article */
-article header {
-    padding: 0 0 40px 0;
-    font-family: "Proxima Nova Bold";
+article {
+    margin: 0 0 80px 0;
 }
 article header h1 {
     margin: 0;
-    font-family: "Proxima Nova Bold";
-    font-size: 26px;
-}
-article header h1 a {
-    margin: 0;
+    font-size: 22px;
     float: left;
-    font-size: 26px;
-    border-bottom: 0px;
 }
-article header h2 a {
+article header h2 {
+    font-family: "Proxima Nova Bold";
+    font-size: 14px;
     float: right;
-    font-size: 16px;
-    border-bottom: 0px
 }
-article blockquote {
-    margin: 0;
-    padding: 0 0 0 40px;
-    display: block;
-    border-left: 1px #8ca1b6 solid;
-}
-
-
-
-
 article div {
+    clear: both;
+    padding: 20px 0 0 0;
     line-height: 150%;
     text-align: justify;
 }
@@ -100,6 +85,12 @@ article div a:hover {
 }
 article li {
     line-height: 150%;
+}
+article blockquote {
+    margin: 0;
+    padding: 0 0 0 40px;
+    display: block;
+    border-left: 1px #8ca1b6 solid;
 }
 
 
