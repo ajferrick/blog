@@ -4,11 +4,12 @@ html {
     padding: 0;
 }
 body {
-    margin: 0;
     padding: 0;
+    margin: 80px 0 0 50px;
+    width: 840px;
+    font-family: "Proxima Nova Light";
     color: #d4d4d4;
     background-color: #262626;
-    font-family: "Proxima Nova Light";
 }
 @font-face {
     font-family: "Proxima Nova Light";
@@ -30,66 +31,66 @@ a:hover {
 }
 
 
-/* Header layout */
-nav {
-    width: 900px;
-    margin: 50px 0px 0px 0;
-    padding: 0 0 10px 20px;
-    border-bottom: 1px solid #8ca1b6;
-}
-nav h1 {
-    display: inline;
-}
-nav h1 a {
+/* Header */
+header h1 {
+    margin: 0 0 40px 0;
     font-family: "Proxima Nova Bold";
-    font-size: 32px;
-}
-nav div {
-    display: inline;
-    float: right;
-    padding: 8px 0 0 0;
-}
-nav div a {
-    font-size: 22px;
-}
-hr {
-    margin: 0;
-    border: 1px solid #8ca1b6;
+    font-size: 26px;
 }
 
 
-/* Article layout */
-article {
-    margin: 130px 0 0 0;
-    padding: 0 0 0 20px;
+/* Nav */
+nav {
+    width: 240px;
+    font-family: "Proxima Nova Bold";
+    font-size: 20px;
+    line-height: 120%;
+    float: left;
+}
+nav a {
+    display: block;
+}
+
+/* Content section */
+body section {
     width: 600px;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: justify;
+    float: right;
 }
+
+/* Article */
 article header {
     padding: 0 0 40px 0;
-    width: 600px;
-    display: inline-block;
     font-family: "Proxima Nova Bold";
 }
-article header h1 a {
-    float: left;
+article header h1 {
     margin: 0;
+    font-family: "Proxima Nova Bold";
+    font-size: 26px;
+}
+article header h1 a {
+    margin: 0;
+    float: left;
     font-size: 26px;
     border-bottom: 0px;
 }
 article header h2 a {
     float: right;
-    margin: 8px 0 0 0;
     font-size: 16px;
     border-bottom: 0px
 }
 article blockquote {
-    padding: 0 0 0 40px;
     margin: 0;
+    padding: 0 0 0 40px;
     display: block;
     border-left: 1px #8ca1b6 solid;
+}
+
+
+
+
+article div {
+    line-height: 150%;
+    text-align: justify;
 }
 article div a {
     border-bottom: 1px #d4d4d4 dotted;
@@ -102,16 +103,14 @@ article li {
 }
 
 
+
+
 /* Classes for repeated or special elements */
-.separator-bullet {
-    padding: 0 5px 0 5px;
-    font-size: 20px;
-}
 .archive-articles:nth-of-type(1) {
     margin: 130px 0 0 0;
 }
 .archive-articles {
-    margin: 0 0 0 0;
+    margin: 0;
 }
 .breaker-glyph {
     text-align: center;
