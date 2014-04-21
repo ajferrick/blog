@@ -8,6 +8,7 @@ body {
     padding: 0;
     color: #d4d4d4;
     background-color: #262626;
+    font-family: "Proxima Nova Light";
 }
 @font-face {
     font-family: "Proxima Nova Light";
@@ -30,24 +31,25 @@ a:hover {
 
 
 /* Header layout */
-header {
-    width: 960px;
-    padding: 50px 0px 10px 130px;
+nav {
+    width: 900px;
+    margin: 50px 0px 0px 0;
+    padding: 0 0 10px 20px;
+    border-bottom: 1px solid #8ca1b6;
 }
-header nav h1 {
+nav h1 {
     display: inline;
 }
-header nav h1 a {
+nav h1 a {
     font-family: "Proxima Nova Bold";
     font-size: 32px;
 }
-header nav div {
+nav div {
     display: inline;
     float: right;
     padding: 8px 0 0 0;
 }
-header nav div a {
-    font-family: "Proxima Nova Light";
+nav div a {
     font-size: 22px;
 }
 hr {
@@ -58,17 +60,16 @@ hr {
 
 /* Article layout */
 article {
-    margin: 130px 0 100px 110px;
+    margin: 130px 0 0 0;
     padding: 0 0 0 20px;
-    width: 610px;
-    font-family: "Proxima Nova Light";
+    width: 600px;
     font-size: 16px;
     line-height: 150%;
     text-align: justify;
 }
 article header {
     padding: 0 0 40px 0;
-    width: 610px;
+    width: 600px;
     display: inline-block;
     font-family: "Proxima Nova Bold";
 }
@@ -90,25 +91,27 @@ article blockquote {
     display: block;
     border-left: 1px #8ca1b6 solid;
 }
-article a {
+article div a {
     border-bottom: 1px #d4d4d4 dotted;
 }
+article div a:hover {
+    border-bottom: 1px #8ca1b6 dotted;
+}
 article li {
-    font-family: "Proxima Nova Light";
     line-height: 150%;
 }
 
 
 /* Classes for repeated or special elements */
 .separator-bullet {
-    padding: 0 10px 0 10px;
+    padding: 0 5px 0 5px;
     font-size: 20px;
 }
 .archive-articles:nth-of-type(1) {
-    margin: 130px 0 0px 110px;
+    margin: 130px 0 0 0;
 }
 .archive-articles {
-    margin: 0px 0 0px 110px;
+    margin: 0 0 0 0;
 }
 .breaker-glyph {
     text-align: center;
@@ -116,7 +119,6 @@ article li {
     color: #999;
 }
 .continue-link {
-    font-family: "Proxima Nova Light";
     margin: 18px 0 0 0;
     display: block;
     text-align: right;
