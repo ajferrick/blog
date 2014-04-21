@@ -11,6 +11,9 @@ body {
     color: #d4d4d4;
     background-color: #262626;
 }
+p {
+    margin: 0 0 20px 0;
+}
 @font-face {
     font-family: "Proxima Nova Light";
     src: url('/assets/proxima_light.otf');
@@ -60,6 +63,8 @@ body section {
 /* Article */
 article {
     margin: 0 0 80px 0;
+    line-height: 150%;
+    text-align: justify;
 }
 article header h1 {
     margin: 0;
@@ -73,9 +78,6 @@ article header h2 {
 }
 article div {
     clear: both;
-    padding: 20px 0 0 0;
-    line-height: 150%;
-    text-align: justify;
 }
 article div a {
     border-bottom: 1px #d4d4d4 dotted;
@@ -94,14 +96,14 @@ article blockquote {
 }
 
 
-
-
 /* Classes for repeated or special elements */
-.archive-articles:nth-of-type(1) {
-    margin: 130px 0 0 0;
-}
 .archive-articles {
     margin: 0;
+    line-height: 150%;
+}
+.archive-articles h1 {
+    font-family: "Proxima Nova Light";
+    font-size: 16px;
 }
 .breaker-glyph {
     text-align: center;
