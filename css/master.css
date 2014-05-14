@@ -53,6 +53,13 @@ nav {
 nav a {
     display: block;
 }
+nav div {
+    margin: 40px 0 0 0;
+}
+nav div a {
+    display: inline;
+    margin: 0 7px 0 0;
+}
 
 /* Content section */
 body section {
@@ -62,14 +69,15 @@ body section {
 
 /* Article */
 article {
-    margin: 0 0 80px 0;
     line-height: 150%;
     text-align: justify;
+    margin: 0 0 120px 0;
 }
 article header h1 {
     margin: 0;
     font-size: 22px;
     float: left;
+    margin: 0 0 20px 0;
 }
 article header h2 {
     font-family: "Proxima Nova Bold";
@@ -77,24 +85,23 @@ article header h2 {
     float: right;
     margin: 0;
 }
-article div {
-    clear: both;
-    padding: 20px 0 0 0;
+article blockquote {
+    padding: 0 0 0 40px;
+    border-left: 1px #8ca1b6 solid;
 }
-article div a {
+
+/* The content itself */
+.content-body {
+    display: inline-block;
+}
+.content-body a {
     border-bottom: 1px #d4d4d4 dotted;
 }
-article div a:hover {
+.content-body a:hover {
     border-bottom: 1px #8ca1b6 dotted;
 }
-article li {
+.content-body li {
     line-height: 150%;
-}
-article blockquote {
-    margin: 0;
-    padding: 0 0 0 40px;
-    display: block;
-    border-left: 1px #8ca1b6 solid;
 }
 
 
@@ -108,6 +115,7 @@ article blockquote {
     font-size: 16px;
 }
 .breaker-glyph {
+    margin: 40px 0 40px 0;
     text-align: center;
     width: 100%;
     color: #999;
