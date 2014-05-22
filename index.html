@@ -3,18 +3,14 @@ layout: default
 title: home
 ---
 
-<section>
-    <em>overtones.fm</em> is AJ Ferrick, an audio enthusiast and engineer.
-    <p class="breaker-glyph"><em>recently:</em></p>
-</section>
 
-{% for post in site.posts limit:2 %}
+{% for post in site.posts limit:3 %}
 <article>
     <header>
         <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
         <h2><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></h2>
     </header>
-    <blockquote class="content-body">{{ post.excerpt }}</blockquote>
+    <p>{{ post.excerpt }}</p>
     <a class="continue-link" href="{{ post.url }}">...continue</a>
 </article>
 {% endfor %}
