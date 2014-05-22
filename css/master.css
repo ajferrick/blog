@@ -52,7 +52,7 @@ a:hover {
 }
 
 
-/* Content section */
+/* Content framing */
 section {
     width: 800px;
     float: right;
@@ -82,6 +82,9 @@ section article p {
     margin: 0;
     display: inline-block;
 }
+
+
+/* Content formatting */
 .content-body a {
     border-bottom: 1px #575757 dotted;
 }
