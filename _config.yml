@@ -2,6 +2,7 @@ source: .
 destination: ./_site
 layouts: ./_layouts
 keep_files: ['.git']
+excerpt_separator: '<!-- more -->'
 
 exclude: ['README.md', 'Dockerfile']
 include: ['.well-known']

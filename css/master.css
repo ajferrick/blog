@@ -113,8 +113,11 @@ section article p {
     color: #999;
 }
 .continue-link {
-    margin: 0;
+    margin: 24px 0 0 0;
     display: block;
     text-align: right;
     border-bottom: 0px;
+}
+.headroom {
+    margin: 24px 0 0 0;
 }

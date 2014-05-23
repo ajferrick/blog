@@ -11,6 +11,11 @@ title: home
         <h2><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></h2>
     </header>
     <div class="content-body">{{ post.excerpt }}</div>
-    <a class="continue-link" href="{{ post.url }}">...continue</a>
+    {% assign a = post.content | size %}
+    {% assign b = post.excerpt | size %}
+    {% assign len = a | minus: b %}
+    {% if len > 0 %}
+        <a class="continue-link" href="{{ post.url }}">...continue</a>
+    {% endif %}
 </article>
 {% endfor %}
