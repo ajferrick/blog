@@ -4,7 +4,7 @@ layouts: ./_layouts
 keep_files: ['.git']
 excerpt_separator: '<!-- more -->'
 
-exclude: ['README.md', 'Dockerfile']
+exclude: ['README.md']
 include: ['.well-known']
 
 markdown: kramdown
