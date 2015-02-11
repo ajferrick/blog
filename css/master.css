@@ -94,6 +94,9 @@ section article p {
 .content-body li {
     line-height: 150%;
 }
+.content-body img {
+    width: 800px;
+}
 
 
 /* Classes for repeated or special elements */
