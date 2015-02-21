@@ -1,8 +1,6 @@
-overtones.fm is written and administered by:
+ajferrick.com is written and administered by:
 
 AJ Ferrick <ajferrick@gmail.com>
 @ajferrick
 keybase.io/ajf
 
-Some subdomains hosted under overtones.fm are administered by KZSU Computing,
-an engineering group of KZSU Stanford 90.1 FM.
