@@ -99,6 +99,19 @@ section article p {
 }
 
 
+/* Pagination footer */
+nav.pagination {
+    text-align: center;
+    margin: 0 0 120px 0;
+}
+nav.pagination span.pagination-progress {
+    margin: 0 20px 0 20px;
+}
+nav.pagination span.pagination-dead-end {
+    color: #eee;
+}
+
+
 /* Classes for repeated or special elements */
 .no-line {
     padding: 0;

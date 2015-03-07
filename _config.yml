@@ -9,3 +9,6 @@ include: ['.well-known']
 
 markdown: kramdown
 markdown_ext: md
+
+paginate: 4
+
