@@ -11,11 +11,11 @@ These samples are from the works of [Adam Ferris](http://www.adamferriss.com/ind
     <img src="http://www.adamferriss.com/files/dimgs/rsz_h600_6_26.jpg" width="800px">
 </a>
 
+<!-- more -->
+
 <a href="http://www.adamferriss.com/index.php/project/mphase/" class="no-underline">
     <img src="http://adamferriss.com/mPhase/1.jpg" width="800px">
 </a>
-
-<!-- more -->
 
 <a href="http://www.adamferriss.com/index.php/project/zero-player-game/" class="no-underline">
     <img src="http://www.adamferriss.com/files/gimgs/x16_41204929320.png.pagespeed.ic.pRg8dKhDmn.png" width="800px">
