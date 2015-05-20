@@ -82,6 +82,11 @@ section article p {
     margin: 0 0 10px 0;
     display: inline-block;
 }
+section article blockquote {
+    border-left: 1px dotted #575757;
+    padding: 0 40px 0 40px;
+    margin: 0;
+}
 
 
 /* Content formatting */
