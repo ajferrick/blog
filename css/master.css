@@ -4,9 +4,9 @@ html {
     padding: 0;
 }
 body {
+    width: 600px;
+    margin: auto;
     padding: 0;
-    margin: 80px 0 0 50px;
-    width: 1200px;
     font-family: "Inconsolata";
     color: #575757;
     background-color: #fff;
@@ -34,29 +34,27 @@ a:hover {
 }
 
 
-/* Sidebar */
-.sidebar {
-    float: left;
-    width: 260px;
+/* Intro */
+.intro {
+    width: 450px;
+    margin: auto;
+    padding: 60px 0 60px 0;
+}
+.intro h2 {
+    margin: 0 0 40px 0;
     font-size: 18px;
+    font-style: italic;
+    text-align: center;
 }
-.sidebar header h1 {
-    margin: 0 0 20px 0;
-    font-family: "Proxima Nova Bold";
-    font-size: 30px;
-}
-.sidebar ul {
-    list-style: none;
-    -webkit-padding-start: 0;
-    -moz-padding-start: 0;
+.intro nav p {
+    text-align: center;
+    font-size: 18px;
 }
 
 
 /* Content framing */
 section {
-    width: 800px;
-    float: right;
-    padding: 0 50px 0 0;
+    width: 600px;
 }
 section article {
     margin: 0 0 120px 0;
@@ -79,7 +77,7 @@ section article header h2 {
     font-size: 16px;
 }
 section article p {
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
     display: inline-block;
 }
 section article blockquote {
@@ -101,6 +99,7 @@ section article blockquote {
 }
 .content-body img {
     width: 800px;
+    max-width: 100%;
 }
 
 
