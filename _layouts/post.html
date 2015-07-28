@@ -3,10 +3,8 @@ layout: default
 ---
 
 <article>
-    <header>
-        <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
-        <h2><a href="{{ post.url }}">{{ page.date | date_to_string }}</a></h2>
-    </header>
+    <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+    <h2><a href="{{ post.url }}">{{ page.date | date_to_string }}</a></h2>
     <div class="content-body">{{ content }}</div>
 </article>
 

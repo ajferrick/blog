@@ -51,31 +51,30 @@ a:hover {
 
 
 /* Content framing */
-section article {
+article {
     margin: 0 0 120px 0;
     padding: 10px 0 0 0;
     line-height: 150%;
     text-align: justify;
     border-top: 1px #575757 solid;
 }
-section article header {
+article h1 {
     font-family: "Proxima Nova Bold";
-}
-section article header h1 {
     float: left;
     margin: 0 0 20px 0;
     font-size: 22px;
 }
-section article header h2 {
+article h2 {
+    font-family: "Proxima Nova Bold";
     float: right;
     margin: 0;
     font-size: 16px;
 }
-section article p {
+article p {
     margin: 0 0 20px 0;
     display: inline-block;
 }
-section article blockquote {
+article blockquote {
     border-left: 1px dotted #575757;
     padding: 0 40px 0 40px;
     margin: 0;
