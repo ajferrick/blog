@@ -1,0 +1,181 @@
+/* Font definitions */
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: url('/assets/proxima_bold.otf');
+}
+@font-face {
+    font-family: "Inconsolata";
+    src: url('/assets/inconsolata.otf');
+}
+
+
+/* Default tag behavior */
+p {
+    font-size: 1.0em;
+    line-height: 1.5em;
+    margin: 0 0 1.0em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Proxima Nova Bold";
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #575757;
+}
+a:hover {
+    color: #8ca1b6;
+}
+li {
+    line-height: 1.75em;
+}
+
+
+/* Document */
+html {
+    margin: 0;
+}
+body {
+    margin: auto;
+    padding: 0 1em 4.5em 1em;
+    font-size: 16px;
+
+    max-width: 660px;
+    color: #575757;
+    background-color: #fff;
+
+    font-family: "Inconsolata";
+}
+
+
+/* Top Navigation */
+nav {
+    width: 90%;    
+    margin: 2.25em auto;
+    text-align: center;
+}
+nav div.nav-links {
+    margin-top: 1em;
+}
+nav em {
+    display: block;
+    margin: 0 auto 2em auto;
+}
+@media (min-width: 660px) {
+    nav em {
+        width: 50%;
+    }
+}
+
+
+/* Article */
+article {
+    border-top: 0.0625em #575757 solid;
+    margin: 0 0 7.5em 0;
+    padding: 0.625em 0 0 0;
+}
+article h1 {
+    font-size: 1.375em;
+}
+
+/* Article Headers: handle dates that cause titles to overflow */
+@media (min-width: 0px) {
+    article h1 {
+        margin: 0 0 0.25em 0;
+    }
+    article h2 {
+        display: block;
+        font-size: 0.875em;
+    }
+}
+@media (min-width: 660px) {
+    article h1 {
+        float: left; 
+    }
+    article h2 {
+        float: right;
+        font-size: 1.0em;
+    }
+}
+
+
+
+/* Article Content */
+.content-body {
+    display: inline-block;
+    margin: 1.25em 0 0 0;
+    text-align: justify;
+}
+.content-body a {
+    border-bottom: 0.0625px #575757 dotted;
+}
+.content-body a:hover {
+   border-bottom: 0.0625px #8ca1b6 dotted;
+}
+.content-body img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Article Content Quotes: Handle border spacing differently */
+.content-body blockquote {
+    border-left: 0.0625em dotted #575757;
+    margin: 0;
+}
+@media (min-width: 0px) {
+    .content-body blockquote {
+        padding: 0 1.0em 0 1.0em;
+    }
+}
+@media (min-width: 660px) {
+    .content-body blockquote {
+        padding: 0 2.5em 0 2.5em;
+    }
+}
+
+
+/* Pagination */
+nav.pagination {
+    text-align: center;
+}
+nav.pagination a {
+    border-bottom: 0.0625em #575757 dotted;
+}
+nav.pagination span.pagination-progress {
+    margin: 0 1.25em 0 1.25em;
+}
+nav.pagination span.pagination-dead-end {
+    color: #eee;
+}
+
+
+/* Classes for repeated or special elements */
+.no-line {
+    padding: 0;
+    border-top: none;
+}
+.archive-articles {
+    margin: 0;
+}
+.breaker-glyph {
+    margin: 2.5em 0 2.5em 0;
+    text-align: center;
+    width: 100%;
+    color: #999;
+}
+.continue-link {
+    margin: 1.5em 0 0 0;
+    display: block;
+    text-align: right;
+    border-bottom: 0px;
+}
+.headroom {
+    margin: 1.5em 0 0 0;
+}
+.no-underline {
+    border-bottom: none !important;
+}
+.no-underline:hover {
+    border-bottom: none !important;
+}
+

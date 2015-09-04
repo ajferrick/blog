@@ -1,39 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>ajferrick.com | {{ page.title }}</title>
+
     <link rel="author" href="humans.txt">
+
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="/css/master.css">
-    <link rel="alternate" type="application/atom+xml" href="/feeds/atom.xml">
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/site.css">
+
     <link rel="canonical" href="http://ajferrick.com{{ page.url | replace:'index.html',''}}">
-    <meta name=viewport content="width=device-width, initial-scale=0.5">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <meta name="description" content="">
 </head>
 
-<body>
-    <div class="intro">
-        <a href="/">
-            <h2>These are the dumping grounds of AJ Ferrick, an engineer and audio enthusiast.</h2>
-        </a>
+    <body>
         <nav>
-            <p>
+            <em>The dumping grounds of AJ Ferrick, an engineer and audio enthusiast.</em>
+            <div class="nav-links">
                 <a href="/">blog</a> .
                 <a href="/about">about</a> .
-                <a href="https://www.dropbox.com/s/cg2m3m87alufn5b/ajferrick_resume.pdf">resume</a> .
                 <a href="/archive">archive</a> .
                 <a href="/feeds/atom.xml">atom</a>
-            </p>
-            <p>
+            </div>
+            <div class="nav-links">
                 <a href="https://twitter.com/ajferrick">twitter</a> .
                 <a href="https://github.com/ajferrick">github</a> .
                 <a href="https://last.fm/user/ajferrick">last.fm</a>
-            </p>
+            </div>
         </nav>
-    </div>
 
-    {{ content }}
-</body>
+        {{ content }}
+
+    </body>
 
 </html>
+
