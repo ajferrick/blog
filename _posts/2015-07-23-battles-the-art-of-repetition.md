@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Art of Repetition, BTTLS
+title: Art of Repetition, BTTLS
 ---
 
 Listening to this has me itching to pre-order, especially to hear that song they were jamming to in the studio near the end of the video.
