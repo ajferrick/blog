@@ -4,11 +4,11 @@ layout: null
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>overtones.fm</title>
-  <link href="http://overtones.fm/"/>
-  <link type="application/atom+xml" rel="self" href="http://overtones.fm/feeds/atom.xml"/>
+  <title>ajferrick.com</title>
+  <link href="http://ajferrick.com/"/>
+  <link type="application/atom+xml" rel="self" href="http://ajferrick.com/feeds/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://overtones.fm/</id>
+  <id>http://ajferrick.com/</id>
   <author>
     <name>AJ Ferrick</name>
     <email>ajferrick@gmail.com</email>
@@ -16,14 +16,14 @@ layout: null
 
   {% for post in site.posts %}
   <entry>
-    <id>http://overtones.fm{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://overtones.fm{{ post.url }}"/>
+    <id>http://ajferrick.com{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://ajferrick.com{{ post.url }}"/>
     <title>{{ post.title }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>AJ Ferrick</name>
-      <uri>http://overtones.fm/</uri>
+      <uri>http://ajferrick.com/</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
