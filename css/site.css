@@ -104,7 +104,6 @@ article h1 {
 .content-body {
     display: inline-block;
     margin: 1.25em 0 0 0;
-    text-align: justify;
 }
 .content-body a {
     border-bottom: 0.0625px #575757 dotted;
