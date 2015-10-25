@@ -109,7 +109,7 @@ article h1 {
     border-bottom: 0.0625em #575757 dotted;
 }
 .content-body a:hover {
-   border-bottom: 0.0625px #8ca1b6 dotted;
+   border-bottom: 0.0625em #8ca1b6 dotted;
 }
 .content-body img {
     width: 100%;
