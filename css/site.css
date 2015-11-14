@@ -137,8 +137,9 @@ article h1 {
  */
 .content-body .video-wrapper {
     position: relative;
-    padding: 1.5625em 0 56.25% 0;
     height: 0;
+    padding: 1.5625em 0 56.25% 0;
+    margin: 0 0 2em 0;
 }
 .content-body .video-wrapper iframe {
     position: absolute;
