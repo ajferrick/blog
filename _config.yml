@@ -1,6 +1,6 @@
 source: .
 destination: ./_site
-layouts: ./_layouts
+layouts_dir: ./_layouts
 keep_files: ['.git']
 excerpt_separator: '<!-- more -->'
 
