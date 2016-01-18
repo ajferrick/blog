@@ -6,6 +6,7 @@ excerpt_separator: '<!-- more -->'
 
 exclude: ['README.md']
 include: ['.well-known']
+gems: [jekyll-paginate]
 
 markdown: kramdown
 markdown_ext: md
