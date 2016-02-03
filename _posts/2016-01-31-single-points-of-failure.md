@@ -1,7 +1,7 @@
---
+---
 layout: post
 title: Single Points of Failure
---
+---
 
 A neat thing happened to me while I was work-travelling.
 
@@ -13,4 +13,4 @@ This is about the third time something like this has happened to me. Each time I
 
 Back up your garbage.
 
-(Thankfully I *had* backups of music and pictures, but they were on a hard drive in California...while I was is Pennsylvania. Hrm.)
+(Thankfully I *had* backups of music and pictures, but they were on a hard drive in California, though I was in Pennsylvania at the time. Hrm.)
