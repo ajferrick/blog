@@ -3,7 +3,7 @@ layout: post
 title: Single Points of Failure
 ---
 
-A neat thing happened to me while I was work-travelling.
+A neat thing happened to me while I was work-traveling.
 
 ![](http://i.imgur.com/zgEOD7B.jpg)
 
