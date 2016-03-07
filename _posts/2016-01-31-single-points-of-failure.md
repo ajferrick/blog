@@ -5,7 +5,7 @@ title: Single Points of Failure
 
 A neat thing happened to me while I was work-traveling.
 
-![](http://i.imgur.com/zgEOD7B.jpg)
+![](https://i.imgur.com/zgEOD7B.jpg)
 
 My only personal computer, which doubled as my work computer, found itself with a bum SSD. Among other things, I lost my music, work and personal code, pictures, and all my private RSA keys.
 

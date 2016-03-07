@@ -5,7 +5,7 @@ layout: post
 
 Should you or I ever make it back to New Mexico, this is the first sight to see. [The Lightning Field](http://www.diaart.org/sites/page/56/1375) is an installation by American sculptor Walter De Maria located in western New Mexico.
 
-<img src="http://www.thestranger.com/images/blogimages/2010/09/07/1283880301-demaria_the_lightning_field_1977.jpg" />
+<img src="https://www.thestranger.com/images/blogimages/2010/09/07/1283880301-demaria_the_lightning_field_1977.jpg" />
 
 From the [Dia Art Foundation](http://www.diaart.org/sites/page/56/1375):
 
