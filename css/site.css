@@ -119,16 +119,20 @@ article h1 {
 /* Article Content Quotes: Handle border spacing differently */
 .content-body blockquote {
     border-left: 0.0625em dotted #575757;
+    background-color: #fdfefc;
+    margin: 0;
+}
+.content-body blockquote p {
     margin: 0;
 }
 @media (min-width: 0px) {
     .content-body blockquote {
-        padding: 0 1.0em 0 1.0em;
+        padding: 0.25em 1.0em 0.25em 1.0em;
     }
 }
 @media (min-width: 660px) {
     .content-body blockquote {
-        padding: 0 2.5em 0 2.5em;
+        padding: 0.5em 2.5em 0.5em 2.5em;
     }
 }
 
