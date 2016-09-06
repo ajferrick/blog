@@ -1,0 +1,2 @@
+post_name=$1_
+echo -e "---\nlayout: post\ntitle: add me\n---\n" > _posts/`date "+%Y-%m-%d-$1.md"`
