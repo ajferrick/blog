@@ -4,10 +4,19 @@
     src: url('/assets/proxima_bold.otf');
 }
 @font-face {
-    font-family: "Inconsolata";
-    src: url('/assets/inconsolata.otf');
+    font-family: "Lora";
+    font-weight: bold;
+    src: url('/assets/lora_bold.ttf');
 }
-
+@font-face {
+    font-family: "Lora";
+    font-style: italic, oblique;
+    src: url('/assets/lora_italic.ttf');
+}
+@font-face {
+    font-family: "Lora";
+    src: url('/assets/lora.ttf');
+}
 
 /* Default tag behavior */
 p {
@@ -44,7 +53,7 @@ body {
     color: #575757;
     background-color: #fff;
 
-    font-family: "Inconsolata";
+    font-family: "Lora";
 }
 
 
@@ -56,15 +65,6 @@ nav {
 }
 nav div.nav-links {
     margin-top: 1em;
-}
-nav em {
-    display: block;
-    margin: 0 auto 2em auto;
-}
-@media (min-width: 660px) {
-    nav em {
-        width: 50%;
-    }
 }
 
 
@@ -104,6 +104,7 @@ article h1 {
 .content-body {
     display: inline-block;
     margin: 1.25em 0 0 0;
+    text-align: justify;
 }
 .content-body a {
     border-bottom: 0.0625em #575757 dotted;
